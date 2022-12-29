@@ -33,7 +33,7 @@ td{
 button{
     border: 1px;
     background-color: bisque;
-    width: fit-content;
+    width: 50%;
     border-radius: 12px;
 }
 
