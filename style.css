@@ -1,0 +1,51 @@
+.sites{
+    
+}
+
+button{
+    background-color: aliceblue;
+    border: 2px solid black;
+    color: green;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 30px;
+    cursor: pointer;
+}
+
+table{
+    border: 2px solid black;
+    border-color: red;
+    width: 100%;
+    text-align: center;
+}
+
+th{
+    border: 2px solid green;
+    width: 50%;
+}
+
+td{
+    border: 2px solid green;
+}
+
+button{
+    border: 1px;
+    width: 87%;
+    background-color: bisque;
+    border-radius: 12px;
+}
+
+button:hover{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
