@@ -1,3 +1,9 @@
+.home{
+    background-image: url("RUET_logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 button{
     background-color: aliceblue;
     border: 2px solid black;
