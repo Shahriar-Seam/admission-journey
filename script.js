@@ -59,6 +59,15 @@ function Chemistry2() {
   }
 }
 
+// Navigation Bar
+function Navigation(){
+  var nav = document.getElementById("nav");
+  if (nav.className === "topnav"){
+    nav.className += " responsive";
+  } else{
+    nav.className = "topnav";
+  }
+}
 
 //Footer
 function Footer(){
