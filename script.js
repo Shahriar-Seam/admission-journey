@@ -60,22 +60,40 @@ function Chemistry2() {
 }
 
 // Navigation Bar
-function Navigation(){
+function Navigation() {
   var nav = document.getElementById("nav");
-  if (nav.className === "topnav"){
+  if (nav.className === "topnav") {
     nav.className += " responsive";
-  } else{
+  } else {
     nav.className = "topnav";
   }
 }
 
+// Personal Routine
+function yesUdvash() {
+  var yesUdvash = document.getElementById("yesUdvash");
+  if (yesUdvash.style.display === "block") {
+    yesUdvash.style.display = "none";
+  } else {
+    yesUdvash.style.display = "block";
+  }
+}
+
+function noUdvash() {
+  var noUdvash = document.getElementById("noUdvash");
+  if (noUdvash.style.display === "block") {
+    noUdvash.style.display = "none";
+  } else {
+    noUdvash.style.display = "block";
+  }
+}
+
 //Footer
-function Footer(){
-    var footer = document.getElementById("footer");
-    if (footer.style.display === "block"){
-        footer.style.display = "none";
-    }
-    else{
-        footer.style.display = "block";
-    }
+function Footer() {
+  var footer = document.getElementById("footer");
+  if (footer.style.display === "block") {
+    footer.style.display = "none";
+  } else {
+    footer.style.display = "block";
+  }
 }
