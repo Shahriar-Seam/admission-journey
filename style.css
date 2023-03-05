@@ -126,7 +126,7 @@ button:hover {
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 177.77%; /* 16:9 Aspect Ratio */
+  padding-top: 177.77%; /* 9:16 Aspect Ratio */
 }
 
 .iframe {
